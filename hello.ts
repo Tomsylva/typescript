@@ -71,23 +71,10 @@
 // })
 
 // // OR WITH CLASSES/FIELDS/METHODS FOR COHERSION PURPOSES
-class Point {
-    private x: number;
-    y: number;
+// 
 
-    constructor(x?: number, y?: number){
-        this.x = x;
-        this.y = y;
-    }
+// IMPORTING MODULES
+import {Point} from "./point";
 
-    draw() {
-        console.log("X: " + this.x + "Y: " + this.y)
-    }
-}
-
-let point = new Point();
-
-// CALLING METHOD FROM CLASS
-// point.x = 1;
-// point.y = 2;
+let point = new Point(1,2);
 point.draw();
