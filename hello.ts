@@ -72,10 +72,10 @@
 
 // // OR WITH CLASSES/FIELDS/METHODS FOR COHERSION PURPOSES
 class Point {
-    x: number;
+    private x: number;
     y: number;
 
-    constructor(x: number, y: number){
+    constructor(x?: number, y?: number){
         this.x = x;
         this.y = y;
     }
@@ -85,7 +85,7 @@ class Point {
     }
 }
 
-let point = new Point(1, 2);
+let point = new Point();
 
 // CALLING METHOD FROM CLASS
 // point.x = 1;
