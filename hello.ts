@@ -74,7 +74,7 @@
 // 
 
 // IMPORTING MODULES
-import {Point} from "./point";
+// import {Point} from "./point";
 
-let point = new Point(1,2);
-point.draw();
+// let point = new Point(1,2);
+// point.draw();
