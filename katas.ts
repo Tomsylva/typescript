@@ -12,3 +12,5 @@
 //     }
 //     return arr;
 //   };
+
+// export const getAverage = (marks:number[]):number => Math.floor((marks.reduce(function(a, b){return a + b;}, 0))/marks.length);
