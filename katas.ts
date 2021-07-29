@@ -1,0 +1,1 @@
+// export const squareSum = (numbers: number[]): number => (numbers.map(x => x*x)).reduce(function(a, b){return a + b;}, 0);
