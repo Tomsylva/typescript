@@ -4,7 +4,7 @@
 
 // export const mouthSize = (animal: string): string => animal.toLowerCase() === "alligator" ? "small" : "wide"
 
-//export const digitize = (n: number): number[] => {
+// export const digitize = (n: number): number[] => {
 //     let arr : number[] = [];
 //     let i = n.toString();
 //     for(let j: number = 0; j < i.length; j++){
@@ -14,3 +14,5 @@
 //   };
 
 // export const getAverage = (marks:number[]):number => Math.floor((marks.reduce(function(a, b){return a + b;}, 0))/marks.length);
+
+// export const makeNegative = (num: number): number => num <=0 ? num : num - num * 2
